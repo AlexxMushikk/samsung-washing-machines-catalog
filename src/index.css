@@ -1,0 +1,109 @@
+:root {
+  /* --- colors: surfaces --- */
+  --color-bg-page: #f8f8f8;
+  --color-bg-surface: #ffffff;
+
+  /* --- colors: text --- */
+  --color-text-primary: #000000;
+  --color-text-secondary: #555555;
+  --color-text-muted: #767676;
+  --color-text-inverse: #ffffff;
+
+  /* --- colors: accents --- */
+  --color-samsung-blue: #1428a0;
+  --color-selected: #1c1c1c;
+  --color-link: #007aff;
+  --color-icon-muted: #8d8d8d;
+
+  /* --- colors: energy badge --- */
+  --color-energy: #009949;
+
+  /* --- typography --- */
+  --font-family-base: 'SamsungOne', 'Inter', system-ui, sans-serif;
+
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+
+  --font-size-xs: 12px;
+  --font-size-sm: 14px;
+  --font-size-md: 16px;
+  --font-size-lg: 18px;
+  --font-size-xl: 40px;
+
+  --line-height-tight: 1.15;
+  --line-height-base: 1.5;
+
+  /* --- spacing --- */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 12px;
+  --space-lg: 16px;
+  --space-xl: 24px;
+
+  /* --- radius --- */
+  --radius-card: 20px;
+  --radius-button: 24px;
+  --radius-badge: 1px;
+
+  /* --- layout --- */
+  --container-width: 1046px;
+  --card-width: 338px;
+  --grid-gap: 16px;
+}
+
+/* ==========================================================================
+   Reset
+   ========================================================================== */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--color-bg-page);
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-base);
+  color: var(--color-text-primary);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button,
+input,
+select {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
