@@ -1,6 +1,6 @@
 export type EnergyClass = 'A' | 'B' | 'C' | 'D' | 'E' | 'F'
 
-export type FeatureId = 'addWashDoor' | 'aiControlPanel' | 'inverterMotor' | ' electronicScreen'
+export type FeatureId = 'addWashDoor' | 'aiControlPanel' | 'inverterMotor' | 'electronicDisplay'
 
 export interface Product {
   // identity
