@@ -1,0 +1,393 @@
+[
+  {
+    "id": "ww90t754abt",
+    "name": "WW90T754ABT, Pralka QuickDrive™, 9 kg, biała",
+    "image": "washer-white1.webp",
+    "capacity": 9,
+    "dimensions": {
+      "depth": 55,
+      "width": 60,
+      "height": 85
+    },
+    "features": ["addWashDoor", "aiControlPanel", "inverterMotor", "electronicDisplay"],
+    "energyClass": "A",
+    "price": 3199,
+    "priceStartDate": "2022-09-15",
+    "priceEndDate": "2022-09-21",
+    "popularity": 21
+  },
+  {
+    "id": "ww10t654dlh",
+    "name": "WW10T654DLH, Pralka EcoBubble™, 10,5 kg, biała",
+    "image": "washer-white2.webp",
+    "capacity": 10.5,
+    "dimensions": {
+      "depth": 60,
+      "width": 60,
+      "height": 85
+    },
+    "features": ["addWashDoor", "aiControlPanel", "inverterMotor", "electronicDisplay"],
+    "energyClass": "B",
+    "price": 3499,
+    "priceStartDate": "2022-09-15",
+    "priceEndDate": "2022-09-21",
+    "popularity": 18
+  },
+  {
+    "id": "ww90t654dlh",
+    "name": "WW90T654DLH, Pralka EcoBubble™, 9 kg, biała",
+    "image": "washer-white1.webp",
+    "capacity": 9,
+    "dimensions": {
+      "depth": 55,
+      "width": 60,
+      "height": 85
+    },
+    "features": ["addWashDoor", "inverterMotor", "electronicDisplay"],
+    "energyClass": "C",
+    "price": 2899,
+    "priceStartDate": "2022-09-15",
+    "priceEndDate": "2022-09-21",
+    "popularity": 15
+  },
+  {
+    "id": "ww90t754abh",
+    "name": "WW90T754ABH, Pralka QuickDrive™, 9 kg, biała",
+    "image": "washer-white2.webp",
+    "capacity": 9,
+    "dimensions": {
+      "depth": 55,
+      "width": 60,
+      "height": 85
+    },
+    "features": ["addWashDoor", "aiControlPanel", "inverterMotor", "electronicDisplay"],
+    "energyClass": "A",
+    "price": 3349,
+    "priceStartDate": "2022-09-15",
+    "priceEndDate": "2022-09-21",
+    "popularity": 20
+  },
+  {
+    "id": "ww90t986ash",
+    "name": "WW90T986ASH, Pralka QuickDrive™, 9 kg, biała",
+    "image": "washer-white1.webp",
+    "capacity": 9,
+    "dimensions": {
+      "depth": 55,
+      "width": 60,
+      "height": 85
+    },
+    "features": ["addWashDoor", "aiControlPanel", "inverterMotor", "electronicDisplay"],
+    "energyClass": "A",
+    "price": 5499,
+    "priceStartDate": "2022-09-15",
+    "priceEndDate": "2022-09-21",
+    "popularity": 23
+  },
+  {
+    "id": "ww90t954asx",
+    "name": "WW90T954ASX, Pralka QuickDrive™, 9 kg, inox",
+    "image": "washer-inox.webp",
+    "capacity": 9,
+    "dimensions": {
+      "depth": 55,
+      "width": 60,
+      "height": 85
+    },
+    "features": ["addWashDoor", "aiControlPanel", "inverterMotor", "electronicDisplay"],
+    "energyClass": "A",
+    "price": 4799,
+    "priceStartDate": "2022-09-15",
+    "priceEndDate": "2022-09-21",
+    "popularity": 22
+  },
+  {
+    "id": "ww90t954ash",
+    "name": "WW90T954ASH, Pralka QuickDrive™, 9 kg, biała",
+    "image": "washer-white2.webp",
+    "capacity": 9,
+    "dimensions": {
+      "depth": 55,
+      "width": 60,
+      "height": 85
+    },
+    "features": ["addWashDoor", "aiControlPanel", "inverterMotor"],
+    "energyClass": "B",
+    "price": 4599,
+    "priceStartDate": "2022-09-15",
+    "priceEndDate": "2022-09-21",
+    "popularity": 19
+  },
+  {
+    "id": "ww80t754dbx",
+    "name": "WW80T754DBX, Pralka QuickDrive™, 8 kg, inox",
+    "image": "washer-inox.webp",
+    "capacity": 8,
+    "dimensions": {
+      "depth": 55,
+      "width": 60,
+      "height": 85
+    },
+    "features": ["addWashDoor", "aiControlPanel", "inverterMotor"],
+    "energyClass": "A",
+    "price": 3899,
+    "priceStartDate": "2022-09-15",
+    "priceEndDate": "2022-09-21",
+    "popularity": 17
+  },
+  {
+    "id": "ww80t986asx",
+    "name": "WW80T986ASX, Pralka QuickDrive™, 8 kg, inox",
+    "image": "washer-inox.webp",
+    "capacity": 8,
+    "dimensions": {
+      "depth": 55,
+      "width": 60,
+      "height": 85
+    },
+    "features": ["addWashDoor", "aiControlPanel", "inverterMotor", "electronicDisplay"],
+    "energyClass": "A",
+    "price": 4999,
+    "priceStartDate": "2022-09-15",
+    "priceEndDate": "2022-09-21",
+    "popularity": 16
+  },
+  {
+    "id": "ww10t754dbh",
+    "name": "WW10T754DBH, Pralka QuickDrive™, 10,5 kg, biała",
+    "image": "washer-white1.webp",
+    "capacity": 10.5,
+    "dimensions": {
+      "depth": 60,
+      "width": 60,
+      "height": 85
+    },
+    "features": ["addWashDoor", "aiControlPanel", "inverterMotor", "electronicDisplay"],
+    "energyClass": "B",
+    "price": 4199,
+    "priceStartDate": "2022-09-15",
+    "priceEndDate": "2022-09-21",
+    "popularity": 14
+  },
+  {
+    "id": "ww90t784dbx",
+    "name": "WW90T784DBX, Pralka QuickDrive™, 9 kg, inox",
+    "image": "washer-inox.webp",
+    "capacity": 9,
+    "dimensions": {
+      "depth": 55,
+      "width": 60,
+      "height": 85
+    },
+    "features": ["aiControlPanel", "inverterMotor", "electronicDisplay"],
+    "energyClass": "B",
+    "price": 4099,
+    "priceStartDate": "2022-09-15",
+    "priceEndDate": "2022-09-21",
+    "popularity": 13
+  },
+  {
+    "id": "ww90t684dle",
+    "name": "WW90T684DLE, Pralka EcoBubble™, 9 kg, biała",
+    "image": "washer-white2.webp",
+    "capacity": 9,
+    "dimensions": {
+      "depth": 55,
+      "width": 60,
+      "height": 85
+    },
+    "features": ["addWashDoor", "inverterMotor", "electronicDisplay"],
+    "energyClass": "C",
+    "price": 3099,
+    "priceStartDate": "2022-09-15",
+    "priceEndDate": "2022-09-21",
+    "popularity": 12
+  },
+  {
+    "id": "ww10t534daw",
+    "name": "WW10T534DAW, Pralka EcoBubble™, 10,5 kg, biała",
+    "image": "washer-white1.webp",
+    "capacity": 10.5,
+    "dimensions": {
+      "depth": 60,
+      "width": 60,
+      "height": 85
+    },
+    "features": ["inverterMotor", "electronicDisplay"],
+    "energyClass": "D",
+    "price": 2799,
+    "priceStartDate": "2022-09-15",
+    "priceEndDate": "2022-09-21",
+    "popularity": 11
+  },
+  {
+    "id": "ww10t654dle",
+    "name": "WW10T654DLE, Pralka EcoBubble™, 10,5 kg, biała",
+    "image": "washer-white2.webp",
+    "capacity": 10.5,
+    "dimensions": {
+      "depth": 60,
+      "width": 60,
+      "height": 85
+    },
+    "features": ["addWashDoor", "inverterMotor", "electronicDisplay"],
+    "energyClass": "C",
+    "price": 3299,
+    "priceStartDate": "2022-09-15",
+    "priceEndDate": "2022-09-21",
+    "popularity": 10
+  },
+  {
+    "id": "ww80t654dlh",
+    "name": "WW80T654DLH, Pralka EcoBubble™, 8 kg, biała",
+    "image": "washer-white1.webp",
+    "capacity": 8,
+    "dimensions": {
+      "depth": 55,
+      "width": 60,
+      "height": 85
+    },
+    "features": ["addWashDoor", "inverterMotor", "electronicDisplay"],
+    "energyClass": "C",
+    "price": 2699,
+    "priceStartDate": "2022-09-15",
+    "priceEndDate": "2022-09-21",
+    "popularity": 9
+  },
+  {
+    "id": "ww80t554daw",
+    "name": "WW80T554DAW, Pralka EcoBubble™, 8 kg, biała",
+    "image": "washer-white2.webp",
+    "capacity": 8,
+    "dimensions": {
+      "depth": 55,
+      "width": 60,
+      "height": 85
+    },
+    "features": ["inverterMotor", "electronicDisplay"],
+    "energyClass": "D",
+    "price": 2399,
+    "priceStartDate": "2022-09-15",
+    "priceEndDate": "2022-09-21",
+    "popularity": 8
+  },
+  {
+    "id": "ww80t534daw",
+    "name": "WW80T534DAW, Pralka EcoBubble™, 8 kg, biała",
+    "image": "washer-white1.webp",
+    "capacity": 8,
+    "dimensions": {
+      "depth": 55,
+      "width": 60,
+      "height": 85
+    },
+    "features": ["inverterMotor", "electronicDisplay"],
+    "energyClass": "D",
+    "price": 2249,
+    "priceStartDate": "2022-09-15",
+    "priceEndDate": "2022-09-21",
+    "popularity": 7
+  },
+  {
+    "id": "ww90t604cae",
+    "name": "WW90T604CAE, Pralka EcoBubble™, 9 kg, biała",
+    "image": "washer-white2.webp",
+    "capacity": 9,
+    "dimensions": {
+      "depth": 55,
+      "width": 60,
+      "height": 85
+    },
+    "features": ["inverterMotor"],
+    "energyClass": "E",
+    "price": 2549,
+    "priceStartDate": "2022-09-15",
+    "priceEndDate": "2022-09-21",
+    "popularity": 6
+  },
+  {
+    "id": "ww70t552dae",
+    "name": "WW70T552DAE, Pralka EcoBubble™, 7 kg, biała",
+    "image": "washer-white1.webp",
+    "capacity": 7,
+    "dimensions": {
+      "depth": 45,
+      "width": 60,
+      "height": 85
+    },
+    "features": ["inverterMotor", "electronicDisplay"],
+    "energyClass": "D",
+    "price": 2149,
+    "priceStartDate": "2022-09-15",
+    "priceEndDate": "2022-09-21",
+    "popularity": 5
+  },
+  {
+    "id": "ww80t4020ee",
+    "name": "WW80T4020EE, Pralka EcoBubble™, 8 kg, biała",
+    "image": "washer-white2.webp",
+    "capacity": 8,
+    "dimensions": {
+      "depth": 55,
+      "width": 60,
+      "height": 85
+    },
+    "features": ["electronicDisplay"],
+    "energyClass": "E",
+    "price": 1999,
+    "priceStartDate": "2022-09-15",
+    "priceEndDate": "2022-09-21",
+    "popularity": 4
+  },
+  {
+    "id": "ww70t4540te",
+    "name": "WW70T4540TE, Pralka EcoBubble™, 7 kg, biała",
+    "image": "washer-white1.webp",
+    "capacity": 7,
+    "dimensions": {
+      "depth": 45,
+      "width": 60,
+      "height": 85
+    },
+    "features": ["inverterMotor"],
+    "energyClass": "E",
+    "price": 1899,
+    "priceStartDate": "2022-09-15",
+    "priceEndDate": "2022-09-21",
+    "popularity": 3
+  },
+  {
+    "id": "ww90t4540te",
+    "name": "WW90T4540TE, Pralka EcoBubble™, 9 kg, biała",
+    "image": "washer-white2.webp",
+    "capacity": 9,
+    "dimensions": {
+      "depth": 55,
+      "width": 60,
+      "height": 85
+    },
+    "features": ["electronicDisplay"],
+    "energyClass": "F",
+    "price": 2049,
+    "priceStartDate": "2022-09-15",
+    "priceEndDate": "2022-09-21",
+    "popularity": 2
+  },
+  {
+    "id": "ww70t4020ee",
+    "name": "WW70T4020EE, Pralka EcoBubble™, 7 kg, biała",
+    "image": "washer-white1.webp",
+    "capacity": 7,
+    "dimensions": {
+      "depth": 45,
+      "width": 60,
+      "height": 85
+    },
+    "features": ["electronicDisplay"],
+    "energyClass": "F",
+    "price": 1799,
+    "priceStartDate": "2022-09-15",
+    "priceEndDate": "2022-09-21",
+    "popularity": 1
+  }
+]
