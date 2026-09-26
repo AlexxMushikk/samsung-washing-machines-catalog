@@ -1,0 +1,123 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+  padding: var(--space-xl);
+  background: var(--color-bg-surface);
+  border-radius: var(--radius-card);
+}
+
+.image {
+  align-self: center;
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+}
+
+.title {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-bold);
+  line-height: 22px;
+}
+
+/* --- specifications --- */
+
+.specs {
+  font-size: var(--font-size-xs);
+  line-height: 18px;
+}
+
+.specs dt,
+.specs dd {
+  display: inline;
+  margin: 0;
+}
+
+.specs dt {
+  color: var(--color-text-muted);
+}
+
+.specs dd {
+  font-weight: var(--font-weight-bold);
+}
+
+/* --- energy class --- */
+
+.energy {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  font-size: var(--font-size-xs);
+  line-height: 18px;
+  color: var(--color-text-muted);
+}
+
+.badge {
+  min-width: 49px;
+  padding: 2px 6px;
+  border-radius: var(--radius-badge);
+  background: var(--color-energy);
+  color: var(--color-text-inverse);
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-bold);
+  line-height: 14px;
+  text-transform: uppercase;
+}
+
+/* --- price block --- */
+
+.validity {
+  font-size: var(--font-size-xs);
+  line-height: 18px;
+  color: var(--color-text-muted);
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.priceWhole {
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-bold);
+  line-height: 1;
+}
+
+.priceCents {
+  display: flex;
+  flex-direction: column;
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-bold);
+  line-height: 16px;
+}
+
+.installment {
+  font-size: var(--font-size-md);
+  font-weight: var(--font-weight-bold);
+  line-height: 18px;
+  color: var(--color-text-secondary);
+}
+
+/* --- button --- */
+
+.button {
+  align-self: center;
+  padding: 10px 40px;
+  border-radius: var(--radius-button);
+  background: var(--color-samsung-blue);
+  color: var(--color-text-inverse);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-bold);
+  line-height: 16px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.button:hover {
+  opacity: 0.9;
+}
+
+.buttonSelected {
+  background: var(--color-selected);
+}
