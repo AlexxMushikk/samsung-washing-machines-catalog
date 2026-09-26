@@ -111,6 +111,7 @@
 
 .button {
   align-self: center;
+  margin-top: auto;
   padding: 10px 40px;
   border-radius: var(--radius-button);
   background: var(--color-samsung-blue);

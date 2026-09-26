@@ -8,6 +8,7 @@
 @media (min-width: 640px) {
   .filters {
     flex-direction: row;
+    align-items: end;
   }
 
   .filters > * {

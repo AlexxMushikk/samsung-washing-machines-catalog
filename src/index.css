@@ -46,11 +46,9 @@ html {
   /* --- radius --- */
   --radius-card: 20px;
   --radius-button: 24px;
-  --radius-badge: 1px;
 
   /* --- layout --- */
   --container-width: 1046px;
-  --card-width: 338px;
   --grid-gap: 16px;
 }
 
