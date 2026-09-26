@@ -4,8 +4,8 @@ import { featureLabels } from './constants/labels.ts'
 import type { EnergyClass, FeatureId } from './types/product.ts'
 import type { SortOption } from './types/filters.ts'
 import { useState } from 'react'
-import ProductGrid from './components/catalog/ProductGrid.tsx'
 import styles from './App.module.css'
+import ProductGrid from './components/catalog/ProductGrid/ProductGrid.tsx'
 
 const energyClasses = [...new Set(products.map((product) => product.energyClass))].sort()
 const capacities = [...new Set(products.map((product) => product.capacity))].sort((a, b) => a - b)

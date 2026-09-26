@@ -1,6 +1,6 @@
-import type { Product } from '../../types/product.ts'
-import ProductCard from './ProductCard.tsx'
 import styles from './ProductGrid.module.css'
+import ProductCard from '../ProductCard/ProductCard.tsx'
+import type { Product } from '../../../types/product.ts'
 
 type ProductGridProps = {
   products: Product[]

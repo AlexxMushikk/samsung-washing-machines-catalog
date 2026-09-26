@@ -1,13 +1,13 @@
-import type { Product } from '../../types/product.ts'
-import { featureLabels } from '../../constants/labels.ts'
-import { productImages } from '../../constants/images.ts'
+import type { Product } from '../../../types/product.ts'
+import { featureLabels } from '../../../constants/labels.ts'
+import { productImages } from '../../../constants/images.ts'
 import {
   formatCapacity,
   formatDateRange,
   formatDimensions,
   formatInstallment,
   formatPrice,
-} from '../../utils/format.ts'
+} from '../../../utils/format.ts'
 import styles from './ProductCard.module.css'
 
 type ProductCardProps = {
