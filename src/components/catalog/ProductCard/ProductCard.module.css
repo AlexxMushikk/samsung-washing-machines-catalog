@@ -53,15 +53,23 @@
 }
 
 .badge {
+  --badge-notch: 6px;
+
   min-width: 49px;
-  padding: 2px 6px;
-  border-radius: var(--radius-badge);
+  padding: 2px calc(var(--badge-notch) * 2) 2px 6px;
   background: var(--color-energy);
   color: var(--color-text-inverse);
   font-size: var(--font-size-xs);
   font-weight: var(--font-weight-bold);
   line-height: 14px;
   text-transform: uppercase;
+  clip-path: polygon(
+    0 0,
+    calc(100% - var(--badge-notch)) 0,
+    100% 50%,
+    calc(100% - var(--badge-notch)) 100%,
+    0 100%
+  );
 }
 
 /* --- price block --- */
