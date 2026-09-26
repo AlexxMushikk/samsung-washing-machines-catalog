@@ -18,5 +18,9 @@ export function useProductFilters(products: Product[]) {
     [products, filters],
   )
 
-  return { filters, setFilters, visibleProducts }
+  function updateFilter<K extends keyof FilterState>(key: K, value: FilterState[K]) {
+    setFilters((previous) => ({ ...previous, [key]: value }))
+  }
+
+  return { filters, updateFilter, visibleProducts }
 }
