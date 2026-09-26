@@ -3,12 +3,15 @@ import { useProductFilters } from './hooks/useProductFilters.ts'
 import { featureLabels } from './constants/labels.ts'
 import type { EnergyClass, FeatureId } from './types/product.ts'
 import type { SortOption } from './types/filters.ts'
+import { useState } from 'react'
+import ProductGrid from './components/catalog/ProductGrid.tsx'
 
 const energyClasses = [...new Set(products.map((product) => product.energyClass))].sort()
 const capacities = [...new Set(products.map((product) => product.capacity))].sort((a, b) => a - b)
 
 function App() {
   const { filters, setFilters, visibleProducts } = useProductFilters(products)
+  const [selectedId, setSelectedId] = useState<string | null>(null)
 
   return (
     <div>
@@ -85,13 +88,15 @@ function App() {
 
       <p>Liczba wyników: {visibleProducts.length}</p>
 
-      <ul>
-        {visibleProducts.map((product) => (
-          <li key={product.id}>
-            {product.name} — {product.price} zł — {product.energyClass}
-          </li>
-        ))}
-      </ul>
+      {visibleProducts.length === 0 ? (
+        <p>Brak wyników</p>
+      ) : (
+        <ProductGrid
+          products={visibleProducts}
+          selectedId={selectedId}
+          onSelect={(id) => setSelectedId(id === selectedId ? null : id)}
+        />
+      )}
     </div>
   )
 }
