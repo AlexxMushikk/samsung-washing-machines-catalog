@@ -4,9 +4,11 @@ import { useProductFilters } from './hooks/useProductFilters.ts'
 import FiltersBar from './components/catalog/FiltersBar/FiltersBar.tsx'
 import ProductGrid from './components/catalog/ProductGrid/ProductGrid.tsx'
 import styles from './App.module.css'
+import ShowMoreButton from './components/catalog/ShowMoreButton/ShowMoreButton.tsx'
 
 function App() {
-  const { filters, updateFilter, visibleProducts } = useProductFilters(products)
+  const { filters, updateFilter, visibleProducts, totalCount, hasMore, showMore } =
+    useProductFilters(products)
   const [selectedId, setSelectedId] = useState<string | null>(null)
 
   return (
@@ -26,16 +28,19 @@ function App() {
 
         <FiltersBar filters={filters} updateFilter={updateFilter} />
 
-        <p className={styles.count}>Liczba wyników: {visibleProducts.length}</p>
+        <p className={styles.count}>Liczba wyników: {totalCount}</p>
 
-        {visibleProducts.length === 0 ? (
+        {totalCount === 0 ? (
           <p className={styles.empty}>Brak wyników</p>
         ) : (
-          <ProductGrid
-            products={visibleProducts}
-            selectedId={selectedId}
-            onSelect={(id) => setSelectedId(id === selectedId ? null : id)}
-          />
+          <>
+            <ProductGrid
+              products={visibleProducts}
+              selectedId={selectedId}
+              onSelect={(id) => setSelectedId(id === selectedId ? null : id)}
+            />
+            {hasMore && <ShowMoreButton onClick={showMore} />}
+          </>
         )}
       </div>
     </div>

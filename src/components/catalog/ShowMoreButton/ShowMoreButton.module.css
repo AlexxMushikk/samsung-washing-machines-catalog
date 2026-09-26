@@ -1,0 +1,18 @@
+.button {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin: var(--space-xl) auto;
+  color: var(--color-link);
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-bold);
+  line-height: 20px;
+}
+
+.button::after {
+  content: '';
+  width: 7px;
+  height: 7px;
+  background: currentcolor;
+  clip-path: polygon(0 0, 100% 0, 50% 100%);
+}
