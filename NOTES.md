@@ -1,3 +1,7 @@
+# Development notes
+
+Time log and issues encountered while building the test task.
+
 ## Thursday 24.09
 
 21:38–00:32 (~3h)
@@ -30,7 +34,7 @@ Issues:
 
 - Exporting product photos from Figma as SVG produced base64-encoded PNGs wrapped
   in `<svg>` — 2.3 MB for images shown at 200x200. Extracted the bitmaps, cropped
-  them using the transform values from the SVG source, converted to WebP: 59 KB total.
+  them using the transform values from the SVG source, converted to WebP: 108 KB total.
 
 - JSON carries no type information, so the imported data is `string` where the
   domain types expect literal unions. Solved with one type assertion inside a single
@@ -43,7 +47,7 @@ Issues:
 
 ## Saturday 26.09
 
-13:20–23:00 (~8h with breaks)
+13:20–23:00 (~8h, excluding breaks)
 
 - Value formatting utilities (price, capacity, dimensions, installment, date range)
 - Product card, product grid, page layout — all styled with CSS Modules
@@ -74,3 +78,10 @@ Issues:
   line with the other three (fixed by bottom-aligning the row); and because filtering
   changes the page height, the browser scrollbar appearing and disappearing shifted the
   whole layout sideways (fixed with `scrollbar-gutter: stable`).
+
+## Sunday 27.09
+
+14:00–14:40 (~40 min)
+
+- README
+- Final read-through of the whole project with fresh eyes
